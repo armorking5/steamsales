@@ -5,8 +5,8 @@ class Wishlist {
   final bool free;
 
   Wishlist({
-    @required this.name,
-    @required this.free,
+    @required required this.name,
+    @required required this.free,
   });
 
   factory Wishlist.fromJson(Map<String, dynamic> json) {
